@@ -3,13 +3,14 @@
 
 <body>
     <h1>Add a new student</h1>
-    <form>
+    <form action="/add-student" method="POST">
         <label for="name">Student name:</label>
         <input type="text" id="name" name="name" required/>
         <label for="grade">Grade:</label>
         <input type="number" id="grade" name="grade" required />
         <button type="submit">Add student</button>
     </form>
+    <a href="/students">View all students</a>
 </body>
 
 </html>
